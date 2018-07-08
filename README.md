@@ -1,3 +1,3 @@
 # Brayden967.github.io
 
-A demo website for any PHP / Python scripts that I create. 
+My portfolio website built on bootstrap
