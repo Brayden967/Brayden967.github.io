@@ -2751,3 +2751,12 @@ h6 {
 .demo-gallery.dark > ul > li a {
   border: 3px solid #04070a;
 }
+
+/* Temporary */
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.portfolio-navbar .navbar-nav .nav-link {
+  font-weight: 500 !important;
+}
