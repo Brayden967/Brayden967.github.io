@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://brayden967.github.io/assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://brayden967.github.io/assets/css/styles.min.css">
-
-	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.14/css/lightgallery.css">
 		<link rel="stylesheet" href="assets/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 </head>
@@ -33,10 +32,22 @@
     <main class="page project-page">
         <section class="portfolio-block project">
             <div class="container">
-				<div class="image" style="background-image:url('https://brayden967.github.io/assets/img/NEO/section3.PNG');"></div>
+                <div class="image" style="background-image:url('https://brayden967.github.io/assets/img/NEO/section3.PNG');"></div>
+                <div class="demo-gallery">
+                    <ul id="lightgallery">
+                      <li data-src="https://brayden967.github.io/assets/img/NEO/NEO.PNG"
+                      data-sub-html="<h4>NEO</h4>">
+                        <a href="">
+                          <img class="img-responsive" src="https://brayden967.github.io/assets/img/NEO/NEO.PNG">
+                          <div class="demo-gallery-poster">
+                            <img src="https://sachinchoolur.github.io/lightGallery/static/img/zoom.png">
+                          </div>
+                        </a>
+                    </ul>
+                  </div>
                 <div class="col-md-12"><h4>Description</h4><p>NEO is a non-profit community-driven blockchain project. It utilizes blockchain technology and digital identity to digitize assets and automate the management of digital assets using smart contracts. Using a distributed network, it aims to create a “Smart Economy”. This vision provides decentralized applications, payment networks, and scalability that will pave the way for the future of blockchain.</p></div>
                 <div class="col-md-12"><h4>About the Mock-up</h4>
-                    <p>This design was created for the NEO Design Competition.</p>
+                    <p>The above screenshot is the top section of the landing page that was created for the NEO Design Competition.</p>
                 </div>
                 
                 
@@ -50,11 +61,21 @@
         </div>
 			<div class="footer-paragraph"><p><i>Built on Bootstrap to demonstrate a modern, minimalistic portfolio website.</i></p></div>
     </footer>
-	
-    <div class="social-icons"><a href="https://www.linkedin.com/in/brayden-abick-8a7793105/"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/Brayden967"><i class="icon ion-social-github"></i></a></div>
     <script src="https://brayden967.github.io/assets/js/jquery.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(() => {
+  $("#lightgallery").lightGallery({
+    pager: true
+  });
+});
+        </script>
+    <div class="social-icons"><a href="https://www.linkedin.com/in/brayden-abick-8a7793105/"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/Brayden967"><i class="icon ion-social-github"></i></a></div>
+    
     <script src="https://brayden967.github.io/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
     <script src="https://brayden967.github.io/assets/js/script.min.js"></script>
+    <script type="text/javascript" src="https://brayden967.github.io/assets/bootstrap/js/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
 </body>
 
 </html>
